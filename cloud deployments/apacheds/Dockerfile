@@ -1,5 +1,5 @@
 # cloud deployments/apacheds/Dockerfile
-FROM apachedirectory/apacheds:2.0.0.AM26
+FROM apachedirectory/apacheds:2.0.3.AM26
 
 USER root
 
@@ -22,7 +22,7 @@ ENV LANG=C.UTF-8 \
 COPY config/wrapper.conf \
     /opt/apacheds/conf/wrapper.conf
 
-COPY ../fortress-core-2.0.0-RC1/ldap/schema/apacheds-fortress.ldif \
+COPY ../fortress-core-2.0.3-RC1/ldap/schema/apacheds-fortress.ldif \
     /opt/apacheds/schema/apacheds-fortress.ldif
 
 # 4) Copy and enable our entrypoint script

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="fortress-load"  >
+<target name="fortress-load" description="Loads fortress policy into ldap" if="load.file">
+  <echo message="############### Run Fortress Ant script to load policy ###############"/>
+  <java fork="true" classname="org.apache.tools.ant.launch.Launcher" taskname="startAnt" failonerror="true" dir="C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\fortress-core-2.0.3-RC1" timeout="4000000">
+    <classpath>
+      <pathelement location="./config/bootstrap/"/>
+      <pathelement location="./target/classes/"/>
+      <pathelement location="${org.apache.ant:ant-launcher:jar}"/>
+      <pathelement location="${org.apache.ant:ant:jar}"/>
+      <pathelement location="${org.openldap:accelerator-api:jar}"/>
+      <pathelement location="${org.openldap:accelerator-impl:jar}"/>
+      <pathelement location="${log4j:log4j:jar}"/>
+      <pathelement location="${org.apache.directory.api:api-all:jar}"/>
+      <pathelement location="${org.apache.mina:mina-core:jar}"/>
+      <pathelement location="${org.jgrapht:jgrapht-core:jar}"/>
+      <pathelement location="${org.jasypt:jasypt:jar}"/>
+      <pathelement location="${commons-configuration:commons-configuration:jar}"/>
+      <pathelement location="${commons-lang:commons-lang:jar}"/>
+      <pathelement location="${commons-collections:commons-collections:jar}"/>
+      <pathelement location="${commons-logging:commons-logging:jar}"/>
+      <pathelement location="${commons-io:commons-io:jar}"/>
+      <pathelement location="${commons-pool:commons-pool:jar}"/>
+      <pathelement location="${net.sf.ehcache:ehcache-core:jar}"/>
+      <pathelement location="${org.slf4j:slf4j-api:jar}"/>
+      <pathelement location="${org.slf4j:slf4j-log4j12:jar}"/>
+      <pathelement location="${antlr:antlr:jar}"/>
+      <pathelement location="${javax.ws.rs:javax.ws.rs-api:jar}"/>
+      <pathelement location="${org.apache.httpcomponents:httpclient:jar}"/>
+      <pathelement location="${org.apache.httpcomponents:httpcore:jar}"/>
+      <pathelement location="${com.sun.xml.bind:jaxb-impl:jar}"/>
+      <pathelement location="${commons-codec:commons-codec:jar}"/>
+    </classpath>
+    <sysproperty value="2.0.3-RC1" key="version"/>
+    <sysproperty value="${tenant}" key="tenant"/>
+    <arg value="-buildfile"/>
+    <arg file="././src/main/resources/FortressRestServerPolicy.xml"/>
+  </java>
+</target>
+</project>

@@ -26,7 +26,7 @@
 14-May-2025 19:00:11.956 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [835] milliseconds
 14-May-2025 19:00:12.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
 14-May-2025 19:00:12.016 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
-14-May-2025 19:00:12.051 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war]
+14-May-2025 19:00:12.051 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war]
 14-May-2025 19:00:12.064 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 19:00:12.064 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
 14-May-2025 19:00:12.064 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
@@ -35,7 +35,7 @@
 14-May-2025 19:00:13.550 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: null, defaultRoles: 
 14-May-2025 19:00:15.605 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fortress-rest-user] used in an <auth-constraint> without being defined in a <security-role>
 14-May-2025 19:00:15.689 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-May-2025 19:00:17.874 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war] has finished in [5,823] ms
+14-May-2025 19:00:17.874 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war] has finished in [5,823] ms
 14-May-2025 19:00:17.882 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war]
 14-May-2025 19:00:17.886 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 19:00:17.888 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
@@ -65,7 +65,7 @@
 14-May-2025 19:00:23.135 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11174] milliseconds
 14-May-2025 19:03:02.873 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8186"]
 14-May-2025 19:03:03.078 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-14-May-2025 19:03:03.141 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14-May-2025 19:03:03.141 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.3-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
  sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
  sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
@@ -78,7 +78,7 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:750)
-14-May-2025 19:03:03.141 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14-May-2025 19:03:03.141 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.3-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Object.wait(Native Method)
  java.util.TimerThread.mainLoop(Timer.java:552)
  java.util.TimerThread.run(Timer.java:505)
@@ -129,7 +129,7 @@
 14-May-2025 19:06:52.757 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [642] milliseconds
 14-May-2025 19:06:52.799 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
 14-May-2025 19:06:52.799 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
-14-May-2025 19:06:52.835 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war]
+14-May-2025 19:06:52.835 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war]
 14-May-2025 19:06:52.847 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 19:06:52.847 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
 14-May-2025 19:06:52.847 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
@@ -138,7 +138,7 @@
 14-May-2025 19:06:54.539 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: null, defaultRoles: 
 14-May-2025 19:06:59.369 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fortress-rest-user] used in an <auth-constraint> without being defined in a <security-role>
 14-May-2025 19:06:59.559 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-May-2025 19:07:03.253 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war] has finished in [10,418] ms
+14-May-2025 19:07:03.253 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war] has finished in [10,418] ms
 14-May-2025 19:07:03.260 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war]
 14-May-2025 19:07:03.265 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 19:07:03.267 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
@@ -168,7 +168,7 @@
 14-May-2025 19:07:13.813 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [21064] milliseconds
 14-May-2025 19:43:23.747 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8186"]
 14-May-2025 19:43:24.126 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-14-May-2025 19:43:24.199 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14-May-2025 19:43:24.199 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.3-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
  sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
  sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
@@ -181,7 +181,7 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:750)
-14-May-2025 19:43:24.200 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14-May-2025 19:43:24.200 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.3-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Object.wait(Native Method)
  java.util.TimerThread.mainLoop(Timer.java:552)
  java.util.TimerThread.run(Timer.java:505)
@@ -245,7 +245,7 @@
 14-May-2025 19:48:00.811 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [463] milliseconds
 14-May-2025 19:48:00.851 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
 14-May-2025 19:48:00.851 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
-14-May-2025 19:48:00.877 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war]
+14-May-2025 19:48:00.877 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war]
 14-May-2025 19:48:00.890 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 19:48:00.890 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
 14-May-2025 19:48:00.890 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
@@ -254,7 +254,7 @@
 14-May-2025 19:48:02.000 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: null, defaultRoles: 
 14-May-2025 19:48:04.383 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fortress-rest-user] used in an <auth-constraint> without being defined in a <security-role>
 14-May-2025 19:48:04.519 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-May-2025 19:48:08.063 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war] has finished in [7,186] ms
+14-May-2025 19:48:08.063 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war] has finished in [7,186] ms
 14-May-2025 19:48:08.069 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war]
 14-May-2025 19:48:08.077 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 19:48:08.077 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
@@ -284,7 +284,7 @@
 14-May-2025 19:48:19.326 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18506] milliseconds
 14-May-2025 20:56:01.468 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8186"]
 14-May-2025 20:56:02.022 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-14-May-2025 20:56:02.146 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14-May-2025 20:56:02.146 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.3-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
  sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
  sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
@@ -297,7 +297,7 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:750)
-14-May-2025 20:56:02.148 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+14-May-2025 20:56:02.148 WARNING [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.3-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Object.wait(Native Method)
  java.util.TimerThread.mainLoop(Timer.java:552)
  java.util.TimerThread.run(Timer.java:505)
@@ -348,7 +348,7 @@
 14-May-2025 20:56:06.504 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [619] milliseconds
 14-May-2025 20:56:06.535 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
 14-May-2025 20:56:06.535 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
-14-May-2025 20:56:06.567 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war]
+14-May-2025 20:56:06.567 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war]
 14-May-2025 20:56:06.589 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 20:56:06.589 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
 14-May-2025 20:56:06.589 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
@@ -357,7 +357,7 @@
 14-May-2025 20:56:08.314 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: null, defaultRoles: 
 14-May-2025 20:56:15.463 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fortress-rest-user] used in an <auth-constraint> without being defined in a <security-role>
 14-May-2025 20:56:15.769 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-May-2025 20:56:22.403 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war] has finished in [15,836] ms
+14-May-2025 20:56:22.403 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war] has finished in [15,836] ms
 14-May-2025 20:56:22.418 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war]
 14-May-2025 20:56:22.427 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
 14-May-2025 20:56:22.427 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>

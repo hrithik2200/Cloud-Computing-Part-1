@@ -3,8 +3,8 @@
 10-May-2025 13:55:57.386 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
 10-May-2025 17:43:21.750 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
 10-May-2025 17:43:21.750 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
-10-May-2025 17:43:21.759 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/fortress-rest-2.0.0-RC1'
-10-May-2025 17:43:21.759 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war
+10-May-2025 17:43:21.759 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/fortress-rest-2.0.3-RC1'
+10-May-2025 17:43:21.759 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.3-RC1.war
 10-May-2025 17:58:38.140 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/fortress-web'
 10-May-2025 17:58:38.140 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war
 10-May-2025 17:59:42.163 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'

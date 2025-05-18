@@ -24,7 +24,7 @@ COPY catalina /usr/local/tomcat/bin/catalina.sh
 RUN chmod +x /usr/local/tomcat/bin/catalina.sh
 
 # 4) Add the Fortress realm-proxy JAR into Tomcat’s lib
-COPY fortress-realm-proxy-2.0.0-RC1.jar \
+COPY fortress-realm-proxy-2.0.3-RC1.jar \
     /usr/local/tomcat/lib/fortress-realm-proxy.jar
 
 # 5) Deploy the two web apps

@@ -9,7 +9,7 @@ and port to 389
 suffix name to archemy
 password to desired value
 
-Use Branch 2.0.0-RC2 (when available, I built it from source)
+Use Branch 2.0.3-RC2 (when available, I built it from source)
 
 Modify slapd.properties file change dc=example to dc=archemy also
 Change passwords
