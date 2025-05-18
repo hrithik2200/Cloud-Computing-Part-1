@@ -1,0 +1,159 @@
+<!--
+ *   Licensed to the Apache Software Foundation (ASF) under one
+ *   or more contributor license agreements.  See the NOTICE file
+ *   distributed with this work for additional information
+ *   regarding copyright ownership.  The ASF licenses this file
+ *   to you under the Apache License, Version 2.0 (the
+ *   "License"); you may not use this file except in compliance
+ *   with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing,
+ *   software distributed under the License is distributed on an
+ *   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ *   KIND, either express or implied.  See the License for the
+ *   specific language governing permissions and limitations
+ *   under the License.
+ *
+-->
+<html>
+<head>
+    <title>Apache Fortress Ten Minute Guide</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../../stylesheet.css" title="Style"/>
+</head>
+<body>
+<hr/>
+<fieldset>
+    <legend><b>Navigation Links</b></legend>
+    <ul>
+        <li><a href="./apache-directory-server.html">Setup Apache Directory Server</a></li>
+        <li><a href="./apache-directory-studio.html">Setup Apache Directory Studio</a></li>
+        <li><a href="./apache-fortress-core.html">Build Apache Fortress Core</a></li>
+        <li><a href="./apache-fortress-realm.html">Build Apache Fortress Realm</a></li>
+        <li><a href="./apache-tomcat.html">Setup Apache Tomcat Web Server</a></li>
+        <li><a href="./apache-fortress-web.html">Build Apache Fortress Web</a></li>
+        <li><a href="./apache-fortress-rest.html">Build Apache Fortress Rest</a></li>
+    </ul>
+    <li><a href="./ten-minute-guide.html">Ten Minute Guide</a></li>
+</fieldset>
+<hr/>
+<p>
+
+<h3>Setup Apache Tomcat Web Server</h3>
+<img src="tomcat.png" alt="Apache Tomcat"/>
+<br/><br/>
+This document contains instructions to install Tomcat 7 and configure for use with Fortress Realm.
+<hr/>
+<h4>This section covers installation to Linux distros</h4>
+<ol>
+    <li>
+        If Tomcat is already installed skip this step.
+        <br/><br/>
+        As root, issue the following commands:
+        <pre>
+            <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+wget http://archive.apache.org/dist/tomcat/tomcat-8/v8.0.30/bin/apache-tomcat-8.0.30.tar.gz
+tar xzf apache-tomcat-8.0.30.tar.gz
+mv apache-tomcat-8.0.30 /usr/local/tomcat8
+/usr/local/tomcat8/bin/startup.sh
+            </p>
+        </pre>
+
+    </li>
+
+    <li>
+        Verify process is running:
+        <pre>
+            <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+ps -ef | grep tomcat
+            </p>
+        </pre>
+    </li>
+
+    <li>
+        Place the fortress-realm proxy jar from <a href="./apache-fortress-realm.html">Build Apache Fortress Realm</a>
+        into Tomcat server's /lib folder. The proxy
+        jar name is fortress-realm-proxy-[version].jar and located here: directory-fortress-realm/proxy/target
+        <pre>
+          <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+cp [directory-fortress-realm]/proxy/target/fortress-realm-proxy-[VERSION]-proxy.jar /usr/local/tomcat7/lib
+          </p>
+        </pre>
+        Where [directory-fortress-realm] is location of Fortress Realm source package and
+        [VERSION] matches [directory-fortress-realm] package pom.xml file.
+    </li>
+
+    <br/>
+
+    <li>
+        Edit tomcat-users.xml:
+        <pre>
+          <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+vi /usr/local/tomcat8/conf/tomcat-users.xml
+          </p>
+        </pre>
+    </li>
+
+    <li>
+        Add privilege for <b>tcmanager</b> user to connect with Tomcat Manager. This account can access GUI and deploy
+        via maven.
+        <pre>
+            <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+&lt;role rolename="manager-script"/&gt;
+&lt;role rolename="manager-gui"/&gt;
+&lt;user username="tcmanager" password="m@nager123" roles="manager-script"/&gt;
+&lt;user username="tcmanagergui" password="m@nager123" roles="manager-gui"/&gt;
+            </p>
+        </pre>
+        Using the config file realm to store credentials for an important application like the Tomcat Manager is a
+        security <b>antipattern</b>. In production, the fortress realm should be used globally by Tomcat.
+    </li>
+
+    <br/>
+
+    <li>
+        Save and exit.
+    </li>
+
+    <br/>
+
+    <li>
+        Restart Tomcat:
+        <pre>
+            <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+/usr/local/tomcat8/bin/shutdown.sh
+/usr/local/tomcat8/bin/startup.sh
+            </p>
+        </pre>
+
+    </li>
+
+    <li>
+        Verify clean logs after startup:
+        <pre>
+            <p style="font: monospace; color: black; background-color: lightgrey; font-size: 10pt">
+tail -f -n10000 /usr/local/tomcat8/logs/catalina.out
+            </p>
+        </pre>
+
+        Ensure there are no errors within Tomcat's log. One common problem:
+        UnsupportedClassVersionError. This is a sure sign that your Tomcat is running under the wrong version of java.
+        Remember Java 7 or greater is required to run this tutorial.
+    </li>
+
+    <br/>
+
+    <li>
+        Verify setup by signing onto the Tomcat Manager app with credentials <b>userId</b>: <i>tcmanagergui</i>, <b>password</b>:
+        <i>m@nager123</i>
+        <br/><br/>
+        <a href="http://localhost:8080/manager">http://localhost:8080/manager</a>
+        <br/>
+    </li>
+
+</ol>
+</body>
+<p style="font: monospace; color: black; font-size: 6pt">Copyright 2003-2016, The Apache Software Foundation. All Rights
+    Reserved.</p>
+</html>
