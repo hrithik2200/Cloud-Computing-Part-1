@@ -1,0 +1,32 @@
+# cloud deployments/apacheds/k8s.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apacheds
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apacheds
+  template:
+    metadata:
+      labels:
+        app: apacheds
+    spec:
+      containers:
+      - name: apacheds
+        image: hrithik2200/apacheds:2.0.0
+        ports:
+        - containerPort: 389
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: apacheds
+spec:
+  selector:
+    app: apacheds
+  ports:
+  - port: 389
+    targetPort: 389

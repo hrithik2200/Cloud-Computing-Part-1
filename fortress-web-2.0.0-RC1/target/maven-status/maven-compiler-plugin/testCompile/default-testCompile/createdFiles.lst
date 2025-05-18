@@ -1,0 +1,4 @@
+org\apache\directory\fortress\web\StartExamples.class
+org\apache\directory\fortress\web\integration\FortressWebSeleniumITCase$DriverType.class
+org\apache\directory\fortress\web\integration\FortressWebSeleniumITCase.class
+org\apache\directory\fortress\web\integration\TUtils.class

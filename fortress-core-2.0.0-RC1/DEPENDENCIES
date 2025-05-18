@@ -1,0 +1,87 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Fortress Core
+
+
+From: 'an unknown organization'
+  - Java(TM) EE 7 Specification APIs (http://java.net/javaee-api/) javax:javaee-api:jar:7.0
+    License: CDDL + GPLv2 with classpath exception  (http://glassfish.java.net/nonav/public/CDDL+GPL.html)
+  - JavaBeans Activation Framework (JAF) (http://java.sun.com/products/javabeans/jaf/index.jsp) javax.activation:activation:jar:1.1
+    License: Common Development and Distribution License (CDDL) v1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+  - JGraphT - Core (http://www.jgrapht.org/jgrapht-core) org.jgrapht:jgrapht-core:jar:1.0.0
+    License: GNU Lesser General Public License Version 2.1, February 1999  (http://jgrapht.sourceforge.net/LGPL.html)    License: Eclipse Public License (EPL) 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+  - Fortress Accelerator API (http://nexus.sonatype.org/oss-repository-hosting.html/accelerator/accelerator-api) org.openldap:accelerator-api:bundle:1.0-RC41
+    License: OpenLDAP Public License  (http://www.OpenLDAP.org/license.html)
+  - Fortress Accelerator Implementation (http://nexus.sonatype.org/oss-repository-hosting.html/accelerator/accelerator-impl) org.openldap:accelerator-impl:bundle:1.0-RC41
+    License: OpenLDAP Public License  (http://www.OpenLDAP.org/license.html)
+
+From: 'Apache MINA Project' (http://mina.apache.org/)
+  - Apache MINA Core (http://mina.apache.org/mina-core/) org.apache.mina:mina-core:bundle:2.0.16
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - XML Commons External Components XML APIs (http://xml.apache.org/commons/#external) xml-apis:xml-apis:jar:1.0.b2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Oracle' (http://www.oracle.com)
+  - JavaMail API (http://javamail.java.net/javax.mail) com.sun.mail:javax.mail:jar:1.5.0
+    License: CDDL/GPLv2+CE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - javax.ws.rs-api (http://jax-rs-spec.java.net) javax.ws.rs:javax.ws.rs-api:jar:2.0.1
+    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.21
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J LOG4J-12 Binding (http://www.slf4j.org) org.slf4j:slf4j-log4j12:jar:1.7.21
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Terracotta, Inc.' (http://www.terracotta.org)
+  - Ehcache Core (http://ehcache.org) net.sf.ehcache:ehcache-core:jar:2.6.11
+    License: The Apache Software License, Version 2.0  (src/assemble/EHCACHE-CORE-LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.10
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Configuration (http://commons.apache.org/configuration/) commons-configuration:commons-configuration:jar:1.10
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons IO (http://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Ant Core (http://ant.apache.org/) org.apache.ant:ant:jar:1.9.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Ant Launcher (http://ant.apache.org/) org.apache.ant:ant-launcher:jar:1.9.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache ServiceMix :: Bundles :: antlr (http://servicemix.apache.org/bundles-pom/org.apache.servicemix.bundles.antlr/) org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr:bundle:2.7.7_5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache ServiceMix :: Bundles :: dom4j (http://servicemix.apache.org/bundles-pom/org.apache.servicemix.bundles.dom4j/) org.apache.servicemix.bundles:org.apache.servicemix.bundles.dom4j:bundle:1.6.1_5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache ServiceMix :: Bundles :: xpp3 (http://servicemix.apache.org/bundles-pom/org.apache.servicemix.bundles.xpp3/) org.apache.servicemix.bundles:org.apache.servicemix.bundles.xpp3:bundle:1.1.4c_7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Directory API All (http://directory.apache.org/api-parent/api-all/) org.apache.directory.api:api-all:jar:1.0.0-RC2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The JASYPT team' (http://www.jasypt.org)
+  - JASYPT: Java Simplified Encryption (http://www.jasypt.org) org.jasypt:jasypt:jar:1.9.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,110 @@
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+-->
+
+<html xmlns:wicket="http://wicket.apache.org/">
+<body>
+<wicket:panel>
+    <form wicket:id="detailFields">
+        <div id="accordion">
+
+            <h3>Audit Modification Details</h3>
+            <div>
+                <fieldset>
+                  <legend>Modifications</legend>
+
+                <table id="inputFormTable">
+                    <tr>
+                        <td>
+                            <label for="ftModCode">Permission</label>
+                        </td>
+                        <td>
+                            <span wicket:id="ftModCode"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="reqType">Operation</label>
+                        </td>
+                        <td>
+                            <span wicket:id="reqType"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="reqDN">Target</label>
+                        </td>
+                        <td>
+                            <span wicket:id="reqDN"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="reqStart">Timestamp</label>
+                        </td>
+                        <td>
+                            <span wicket:id="reqStart"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ftModId">GUID</label>
+                        </td>
+                        <td>
+                            <span wicket:id="ftModId"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><hr/></td>
+                    </tr>
+                    <tr>
+                        <table cellspacing="0" class="dataview">
+                            <caption>Attributes</caption>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Op</th>
+                                <th></th>
+                                <th>Name</th>
+                                <th></th>
+                                <th>Value</th>
+                            </tr>
+                            <tr wicket:id="modstable">
+                                <td><span wicket:id="index">[Index]</span> </td>
+                                <td><span>        </span></td>
+                                <td><span wicket:id="type">[Type]</span></td>
+                                <td><span>        </span></td>
+                                <td><span wicket:id="name">[Name]</span></td>
+                                <td><span>        </span></td>
+                                <td><span wicket:id="value">[Value]</span></td>
+                            </tr>
+                        </table>
+                    </tr>
+                </table>
+              </fieldset>
+            </div>
+            <fieldset>
+                <legend>Modifier</legend>
+                <div wicket:id="userauditdetailpanel" id="userauditdetailpanel"></div>
+            </fieldset>
+
+        </div>
+    </form>
+</wicket:panel>
+</body>
+</html>

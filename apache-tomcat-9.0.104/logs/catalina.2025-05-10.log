@@ -1,0 +1,284 @@
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 13:53:54.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-1.8\jre
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_451-b10
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\conf\logging.properties
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2025 13:53:54.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\temp
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10-May-2025 13:53:54.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-May-2025 13:53:54.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+10-May-2025 13:53:54.937 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 13:53:54.962 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [643] milliseconds
+10-May-2025 13:53:55.003 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 13:53:55.003 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+10-May-2025 13:53:55.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\docs]
+10-May-2025 13:53:55.191 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 13:53:55.330 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
+10-May-2025 13:53:55.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\docs] has finished in [337] ms
+10-May-2025 13:53:55.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\examples]
+10-May-2025 13:53:55.689 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 13:53:55.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\examples] has finished in [408] ms
+10-May-2025 13:53:55.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\host-manager]
+10-May-2025 13:53:55.786 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 13:53:55.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\host-manager] has finished in [32] ms
+10-May-2025 13:53:55.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\manager]
+10-May-2025 13:53:55.834 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 13:53:55.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\manager] has finished in [32] ms
+10-May-2025 13:53:55.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\ROOT]
+10-May-2025 13:53:55.868 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 13:53:55.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\ROOT] has finished in [34] ms
+10-May-2025 13:53:55.868 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 13:53:55.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [932] milliseconds
+10-May-2025 13:55:09.622 INFO [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xe00x010x000x060xdc0x030x030x110xed0x0b0xef0x8f0xdc+0xa40xa40x150xb3M-0xfe<)'0x860xc4%0x9b0x937P?%0xbc0x89+0xae0xcb0xe1 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:404)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+10-May-2025 13:55:09.622 INFO [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xc00x010x000x060xbc0x030x0390xe80xab0x870xf90x190x180x9b0x95C0xe30xf50xd40xda80x100x050x8a0xad0xe30xa6/*0x17I0xb80x8cu0xd6c0x08y ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:404)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+10-May-2025 13:55:09.671 INFO [http-nio-8080-exec-8] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xa00x010x000x060x9c0x030x030x9c0x18H0x0a0xe8PsT0xfd0x110xff0x950xba0xa4{0x1f>0x990xd3y0x81`j&J0x950xf70xda0xc30xa70x82n ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:404)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+10-May-2025 17:18:08.355 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:18:08.509 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 17:18:08.562 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:18:08.575 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:18:11.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-1.8\jre
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_451-b10
+10-May-2025 17:18:11.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\conf\logging.properties
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:18:11.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\temp
+10-May-2025 17:18:11.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+10-May-2025 17:18:11.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10-May-2025 17:18:11.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-May-2025 17:18:11.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+10-May-2025 17:18:11.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:18:11.575 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [638] milliseconds
+10-May-2025 17:18:11.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 17:18:11.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+10-May-2025 17:18:11.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\docs]
+10-May-2025 17:18:11.848 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:18:11.987 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
+10-May-2025 17:18:12.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\docs] has finished in [376] ms
+10-May-2025 17:18:12.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\examples]
+10-May-2025 17:18:12.399 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:18:12.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\examples] has finished in [459] ms
+10-May-2025 17:18:12.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\host-manager]
+10-May-2025 17:18:12.514 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:18:12.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\host-manager] has finished in [52] ms
+10-May-2025 17:18:12.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\manager]
+10-May-2025 17:18:12.572 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:18:12.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\manager] has finished in [58] ms
+10-May-2025 17:18:12.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\ROOT]
+10-May-2025 17:18:12.601 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:18:12.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\ROOT] has finished in [32] ms
+10-May-2025 17:18:12.616 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:18:12.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1055] milliseconds
+10-May-2025 17:43:21.824 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war]
+10-May-2025 17:43:21.832 INFO [http-nio-8080-exec-1] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
+10-May-2025 17:43:21.832 INFO [http-nio-8080-exec-1] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
+10-May-2025 17:43:21.832 INFO [http-nio-8080-exec-1] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
+10-May-2025 17:43:22.205 INFO [http-nio-8080-exec-1] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize Tomcat7 Context-based policy agent
+10-May-2025 17:43:22.205 INFO [http-nio-8080-exec-1] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize - instantiate policy agent name: org.apache.directory.fortress.realm.tomcat.TcAccessMgrImpl
+10-May-2025 17:43:23.259 INFO [http-nio-8080-exec-1] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: null, defaultRoles: 
+10-May-2025 17:43:25.590 WARNING [http-nio-8080-exec-1] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fortress-rest-user] used in an <auth-constraint> without being defined in a <security-role>
+10-May-2025 17:43:25.638 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:43:27.655 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war] has finished in [5,831] ms
+10-May-2025 17:58:38.444 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war]
+10-May-2025 17:58:38.463 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
+10-May-2025 17:58:38.463 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
+10-May-2025 17:58:38.463 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
+10-May-2025 17:58:38.463 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContextId org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContextId <HOME>
+10-May-2025 17:58:40.331 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize Tomcat7 Context-based policy agent
+10-May-2025 17:58:40.331 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize - instantiate policy agent name: org.apache.directory.fortress.realm.tomcat.TcAccessMgrImpl
+10-May-2025 17:58:41.184 INFO [http-nio-8080-exec-10] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: HOME, defaultRoles: 
+10-May-2025 17:58:43.749 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:58:45.319 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war] has finished in [6,875] ms
+10-May-2025 17:59:14.199 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:59:14.386 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2025 17:59:14.460 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.mina.transport.socket.nio.NioProcessor.select(NioProcessor.java:98)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1075)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+10-May-2025 17:59:14.460 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [fortress-rest] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-May-2025 17:59:14.460 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-rest-2.0.0-RC1] appears to have started a thread named [NioProcessor-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.mina.transport.socket.nio.NioProcessor.select(NioProcessor.java:98)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1075)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+10-May-2025 17:59:14.460 SEVERE [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [fortress-rest-2.0.0-RC1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39acd139]) and a value of type [org.apache.cxf.BusFactory.BusHolder] (value [org.apache.cxf.BusFactory$BusHolder@19f677ff]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-May-2025 17:59:14.460 SEVERE [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [fortress-rest-2.0.0-RC1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d4b7c54]) and a value of type [org.apache.cxf.jaxrs.ext.MessageContextImpl] (value [org.apache.cxf.jaxrs.ext.MessageContextImpl@4948f7d4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-May-2025 17:59:14.460 SEVERE [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [fortress-rest-2.0.0-RC1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@16b2d2dd]) and a value of type [org.apache.cxf.jaxrs.ext.MessageContextImpl] (value [org.apache.cxf.jaxrs.ext.MessageContextImpl@3cd1167b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-May-2025 17:59:15.689 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-web] appears to have started a thread named [pool-6-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+10-May-2025 17:59:15.689 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-web] appears to have started a thread named [NioProcessor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.mina.transport.socket.nio.NioProcessor.select(NioProcessor.java:98)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1075)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+10-May-2025 17:59:15.689 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [fortress-web] appears to have started a thread named [fortress-commander] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-May-2025 17:59:15.689 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:59:15.709 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-1.8\jre
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_451-b10
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\conf\logging.properties
+10-May-2025 17:59:19.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\temp
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10-May-2025 17:59:19.777 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-May-2025 17:59:19.785 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+10-May-2025 17:59:20.143 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:59:20.178 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [569] milliseconds
+10-May-2025 17:59:20.226 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2025 17:59:20.226 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+10-May-2025 17:59:20.254 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war]
+10-May-2025 17:59:20.276 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
+10-May-2025 17:59:20.276 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
+10-May-2025 17:59:20.276 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
+10-May-2025 17:59:20.466 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize Tomcat7 Context-based policy agent
+10-May-2025 17:59:20.468 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize - instantiate policy agent name: org.apache.directory.fortress.realm.tomcat.TcAccessMgrImpl
+10-May-2025 17:59:21.608 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: null, defaultRoles: 
+10-May-2025 17:59:24.069 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [fortress-rest-user] used in an <auth-constraint> without being defined in a <security-role>
+10-May-2025 17:59:24.152 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:26.460 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-rest-2.0.0-RC1.war] has finished in [6,206] ms
+10-May-2025 17:59:26.465 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war]
+10-May-2025 17:59:26.467 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setDefaultRoles <>
+10-May-2025 17:59:26.467 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContainerType <TomcatContext>
+10-May-2025 17:59:26.467 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setRealmClasspath <>
+10-May-2025 17:59:26.467 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContextId org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.setContextId <HOME>
+10-May-2025 17:59:26.604 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize Tomcat7 Context-based policy agent
+10-May-2025 17:59:26.604 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize - instantiate policy agent name: org.apache.directory.fortress.realm.tomcat.TcAccessMgrImpl
+10-May-2025 17:59:27.393 INFO [main] org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy.initialize org.apache.directory.fortress.realm.tomcat.Tc7AccessMgrProxy J2EE Tomcat7 policy agent, contextId: HOME, defaultRoles: 
+10-May-2025 17:59:29.697 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:30.704 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\fortress-web.war] has finished in [4,239] ms
+10-May-2025 17:59:30.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\docs]
+10-May-2025 17:59:30.741 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:30.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\docs] has finished in [43] ms
+10-May-2025 17:59:30.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\examples]
+10-May-2025 17:59:31.126 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:31.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\examples] has finished in [467] ms
+10-May-2025 17:59:31.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\host-manager]
+10-May-2025 17:59:31.263 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:31.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\host-manager] has finished in [54] ms
+10-May-2025 17:59:31.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\manager]
+10-May-2025 17:59:31.318 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:31.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\manager] has finished in [52] ms
+10-May-2025 17:59:31.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\ROOT]
+10-May-2025 17:59:31.367 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2025 17:59:31.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Guest1\Downloads\JDK1-7-0-80-20250426T213732Z-001\JDK1-7-0-80\ArchNav-070218 (with Instructions)\itp\apache-tomcat-9.0.104\webapps\ROOT] has finished in [47] ms
+10-May-2025 17:59:31.373 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2025 17:59:31.385 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11205] milliseconds

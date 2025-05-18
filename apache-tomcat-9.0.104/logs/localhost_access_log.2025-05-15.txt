@@ -1,0 +1,1 @@
+0:0:0:0:0:0:0:1 - - [15/May/2025:14:01:10 -0400] "GET /fortress-web/css/Uniform/sprite.png HTTP/1.1" 200 13988

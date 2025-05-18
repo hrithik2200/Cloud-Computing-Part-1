@@ -1,0 +1,15 @@
+org\apache\directory\fortress\rest\DelegatedReviewMgrImpl.class
+org\apache\directory\fortress\rest\ReviewMgrImpl.class
+org\apache\directory\fortress\rest\DelegatedAccessMgrImpl.class
+org\apache\directory\fortress\rest\FortressService.class
+org\apache\directory\fortress\rest\GroupMgrImpl.class
+org\apache\directory\fortress\rest\AbstractMgrImpl.class
+org\apache\directory\fortress\rest\ConfigMgrImpl.class
+org\apache\directory\fortress\rest\SecurityOutFaultInterceptor.class
+org\apache\directory\fortress\rest\DelegatedAdminMgrImpl.class
+org\apache\directory\fortress\rest\AccessMgrImpl.class
+org\apache\directory\fortress\rest\FortressInterceptor.class
+org\apache\directory\fortress\rest\FortressServiceImpl.class
+org\apache\directory\fortress\rest\AuditMgrImpl.class
+org\apache\directory\fortress\rest\PswdPolicyMgrImpl.class
+org\apache\directory\fortress\rest\AdminMgrImpl.class

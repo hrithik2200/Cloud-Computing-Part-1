@@ -1,0 +1,109 @@
+<!--
+ *   Licensed to the Apache Software Foundation (ASF) under one
+ *   or more contributor license agreements.  See the NOTICE file
+ *   distributed with this work for additional information
+ *   regarding copyright ownership.  The ASF licenses this file
+ *   to you under the Apache License, Version 2.0 (the
+ *   "License"); you may not use this file except in compliance
+ *   with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing,
+ *   software distributed under the License is distributed on an
+ *   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ *   KIND, either express or implied.  See the License for the
+ *   specific language governing permissions and limitations
+ *   under the License.
+ *
+-->
+<html>
+<head>
+    <title>Overview of the org.apache.fortress.core component</title>
+</head>
+<body>
+A standards-based Access Management SDK for LDAPv3 compliant systems.
+
+<hr>
+
+<h2>How do I start using Apache Fortress?</h2>
+<p>
+<h3>1. <a href="../../../README-QUICKSTART-APACHEDS.md">ApacheDS & Fortress Quickstart</a></h3>
+Build Fortress Core, Web and Rest components from source and configure for usage with Apache Directory Server.
+</p>
+<p>
+<h3>1. <a href="../../../README-QUICKSTART-SLAPD.md">OpenLDAP & Fortress Quickstart</a></h3>
+Build Fortress Core, Web and Rest components from source and configure for usage with OpenLDAP Directory Server.
+</p>
+<p>
+<h3>3. <a href="../../../README.md">README for Apache Fortress Core</a></h3>
+Contains general instructions to download, install, test, and manage an LDAP server with Fortress Core.
+</p>
+<hr>
+
+<h2>What can I do with Fortress Core APIs?</h2>
+Perform authentication, authorization, administration, audit and password policies.
+The most important package is <A HREF="org/apache/directory/fortress/core/package-summary.html">org.apache.directory.fortress.core</A>
+which contains the public APIs.
+
+<h3>Fortress Manager APIs</h3>
+<ol>
+    <li><a href="org/apache/directory/fortress/core/AccessMgr.html">AccessMgr</a> - This class performs runtime access
+        control operations on objects that are provisioned <a
+                href="http://csrc.nist.gov/groups/SNS/rbac/documents/draft-rbac-implementation-std-v01.pdf">RBAC</a>
+        entities that reside in LDAP directory.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/AdminMgr.html">AdminMgr</a> - This class performs administrative
+        functions to provision Fortress <a
+                href="http://csrc.nist.gov/groups/SNS/rbac/documents/draft-rbac-implementation-std-v01.pdf">RBAC</a>
+        entities into the LDAP directory.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/AuditMgr.html">AuditMgr</a> - This interface prescribes methods used
+        to search OpenLDAP's slapd access log.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/DelAccessMgr.html">DelAccessMgr</a> - This interface prescribes the
+        API for performing runtime delegated access control operations on objects that are provisioned Fortress <a
+                href="http://profsandhu.com/journals/tissec/p113-oh.pdf">ARBAC02</a> entities that reside in LDAP
+        directory.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/DelAdminMgr.html">DelAdminMgr</a> - This class prescribes the <a
+            href="http://profsandhu.com/journals/tissec/p113-oh.pdf">ARBAC02</a> DelegatedAdminMgr interface for
+        performing policy administration of Fortress ARBAC entities that reside in LDAP directory.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/DelReviewMgr.html">DelReviewMgr</a> - This class prescribes the <a
+            href="http://profsandhu.com/journals/tissec/p113-oh.pdf">ARBAC02</a> DelegatedReviewMgr interface for
+        performing policy interrogation of provisioned Fortress ARBAC02 entities that reside in LDAP directory.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/PwPolicyMgr.html">PwPolicyMgr</a> - This class adheres to <a
+            href="http://tools.ietf.org/html/draft-behera-ldap-password-policy-10">IETF PW policy draft</a> and is used
+        to perform administrative and review functions on the <a href="org/openldap/fortress/rbac/PwPolicy.html">PWPOLICIES</a>
+        and <a href="org/openldap/fortress/rbac/User.html">USERS</a> data sets within Fortress.
+    </li>
+    <li><a href="org/apache/directory/fortress/core/ReviewMgr.html">ReviewMgr</a> - This interface prescribes the
+        administrative review functions on already provisioned Fortress <a
+                href="http://csrc.nist.gov/groups/SNS/rbac/documents/draft-rbac-implementation-std-v01.pdf">RBAC</a>
+        entities that reside in LDAP directory.
+    </li>
+</ol>
+
+<h5>Error Handling</h5>
+These APIs throw checked exceptions defined in <a href="org/apache/directory/fortress/core/SecurityException.html">SecurityException</a>
+
+<hr>
+
+<h2>What technologies are used?</h2>
+
+<p>
+    This software runs on any platform that supports Java technology and LDAPv3 protocols but is tested with ApacheDS and OpenLDAP.
+</p>
+
+<hr>
+
+<h2>What are the conditions of use?</h2>
+
+<p>
+    This software is released under <a href="http://www.apache.org/licenses/">Apache License, Version 2.0</a>.
+</p>
+
+</body>
+</html>

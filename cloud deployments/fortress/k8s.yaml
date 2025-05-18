@@ -1,0 +1,37 @@
+# cloud deployments/fortress/k8s.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fortress
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fortress
+  template:
+    metadata:
+      labels:
+        app: fortress
+    spec:
+      containers:
+      - name: fortress
+        image: hrithik2200/fortress:2.0.0-RC1
+        env:
+        - name: FORTRESS_ADMIN_USER
+          value: "uid=admin,ou=system,dc=example,dc=com"
+        - name: FORTRESS_ADMIN_PW
+          value: "secret"
+        ports:
+        - containerPort: 8080
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fortress
+spec:
+  selector:
+    app: fortress
+  ports:
+  - port: 80
+    targetPort: 8080

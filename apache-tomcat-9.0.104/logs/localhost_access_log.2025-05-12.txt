@@ -1,0 +1,192 @@
+127.0.0.1 - - [12/May/2025:09:01:39 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?7 HTTP/1.1" 200 2102
+127.0.0.1 - - [12/May/2025:09:01:40 -0400] "GET /fortress-web/css/camo-style.css HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2025:09:01:40 -0400] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:57 -0400] "POST /fortress-web/wicket/bookmarkable/j_security_check HTTP/1.1" 303 -
+127.0.0.1 - test [12/May/2025:09:01:57 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?7 HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:01:58 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?0 HTTP/1.1" 200 22141
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/kendo.uniform.min.css HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/kendo.common.min.css HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/splitter-style.css HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/ui-lightness/jquery-ui-1.10.2.custom.min.css HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/Uniform/sprite_2x.png HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/images/favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?0-1.IBehaviorListener.0-layout-objectlistpanel&_=1747054919037 HTTP/1.1" 200 25792
+127.0.0.1 - test [12/May/2025:09:01:59 -0400] "GET /fortress-web/css/ui-lightness/images/ui-icons_222222_256x240.png HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:02:02 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:02:02 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?1 HTTP/1.1" 200 24247
+127.0.0.1 - test [12/May/2025:09:02:02 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?1-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:02:03 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?1-1.IBehaviorListener.0-layout-permlistpanel&_=1747054922750 HTTP/1.1" 200 195924
+127.0.0.1 - test [12/May/2025:09:02:24 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?1-1.IBehaviorListener.0-layout-permlistpanel-content-form-permObject HTTP/1.1" 200 1818
+127.0.0.1 - test [12/May/2025:09:02:44 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?1-1.IBehaviorListener.0-layout-permlistpanel-content-form-permObject HTTP/1.1" 200 1824
+127.0.0.1 - test [12/May/2025:09:02:44 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?1-1.IBehaviorListener.0-layout-permlistpanel-content-form-search HTTP/1.1" 200 6179
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.RoleAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.RoleAdminPage?2 HTTP/1.1" 200 35216
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.RoleAdminPage?2-1.IBehaviorListener.0-layout-roledetailpanel-editFields-roleauxpanel-osP HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.RoleAdminPage?2-1.IBehaviorListener.0-layout-roledetailpanel-editFields-roleauxpanel-osU HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.RoleAdminPage?2-1.IBehaviorListener.0-layout-roledetailpanel-editFields-parents HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:02:52 -0400] "GET /fortress-web/css/ui-lightness/images/ui-icons_ef8c08_256x240.png HTTP/1.1" 304 -
+127.0.0.1 - test [12/May/2025:09:02:53 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.RoleAdminPage?2-1.IBehaviorListener.0-layout-rolelistpanel&_=1747054972817 HTTP/1.1" 200 67369
+127.0.0.1 - test [12/May/2025:09:03:12 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:03:12 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?3 HTTP/1.1" 200 22222
+127.0.0.1 - test [12/May/2025:09:03:12 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?3-1.IBehaviorListener.0-layout-objectlistpanel&_=1747054992802 HTTP/1.1" 200 25792
+127.0.0.1 - test [12/May/2025:09:03:24 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:03:24 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?4 HTTP/1.1" 200 24247
+127.0.0.1 - test [12/May/2025:09:03:24 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?4-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:03:25 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?4-1.IBehaviorListener.0-layout-permlistpanel&_=1747055004958 HTTP/1.1" 200 195924
+127.0.0.1 - test [12/May/2025:09:04:07 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:04:07 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?5 HTTP/1.1" 200 22222
+127.0.0.1 - test [12/May/2025:09:04:07 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?5-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055047318 HTTP/1.1" 200 25795
+127.0.0.1 - test [12/May/2025:09:04:09 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?5-1.IBehaviorListener.0-layout-objectlistpanel-content-objectlistform-objecttreegrid-form-bodyContainer-body-i-7 HTTP/1.1" 200 9475
+127.0.0.1 - test [12/May/2025:09:04:09 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?5-1.IBehaviorListener.0-layout-objectlistpanel-content-objectlistform-objecttreegrid-form-bodyContainer-body-i-7 HTTP/1.1" 200 351
+127.0.0.1 - test [12/May/2025:09:04:33 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?5-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-commit HTTP/1.1" 200 8364
+127.0.0.1 - test [12/May/2025:09:04:35 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?5-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-commit HTTP/1.1" 200 8364
+127.0.0.1 - test [12/May/2025:09:04:37 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:04:37 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?6 HTTP/1.1" 200 24383
+127.0.0.1 - test [12/May/2025:09:04:37 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?6-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:04:37 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?6-1.IBehaviorListener.0-layout-permlistpanel&_=1747055077339 HTTP/1.1" 200 196554
+127.0.0.1 - test [12/May/2025:09:05:17 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?6-1.IBehaviorListener.0-layout-navpanel-navButtons-admpobjs HTTP/1.1" 200 126
+127.0.0.1 - test [12/May/2025:09:05:17 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:05:17 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?7 HTTP/1.1" 200 22343
+127.0.0.1 - test [12/May/2025:09:05:17 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?7-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055117481 HTTP/1.1" 200 25877
+127.0.0.1 - test [12/May/2025:09:05:56 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?7-1.IBehaviorListener.0-layout-navpanel-navButtons-admperms HTTP/1.1" 200 124
+127.0.0.1 - test [12/May/2025:09:05:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:05:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?8 HTTP/1.1" 200 24383
+127.0.0.1 - test [12/May/2025:09:05:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?8-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:05:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?8-1.IBehaviorListener.0-layout-permlistpanel&_=1747055156651 HTTP/1.1" 200 196554
+127.0.0.1 - test [12/May/2025:09:06:21 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?8-1.IBehaviorListener.0-layout-permlistpanel-content-form-permObject HTTP/1.1" 200 1828
+127.0.0.1 - test [12/May/2025:09:06:24 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?8-1.IBehaviorListener.0-layout-navpanel-navButtons-admpobjs HTTP/1.1" 200 126
+127.0.0.1 - test [12/May/2025:09:06:24 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:06:24 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?9 HTTP/1.1" 200 22343
+127.0.0.1 - test [12/May/2025:09:06:24 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?9-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055184145 HTTP/1.1" 200 25877
+127.0.0.1 - test [12/May/2025:09:06:25 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?9-1.IBehaviorListener.0-layout-objectlistpanel-content-objectlistform-objecttreegrid-form-bodyContainer-body-i-7 HTTP/1.1" 200 9521
+127.0.0.1 - test [12/May/2025:09:06:39 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:06:39 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?10 HTTP/1.1" 200 22230
+127.0.0.1 - test [12/May/2025:09:06:39 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?10-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055199706 HTTP/1.1" 200 33187
+127.0.0.1 - test [12/May/2025:09:07:12 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?10-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-add HTTP/1.1" 200 8683
+127.0.0.1 - test [12/May/2025:09:07:48 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?10-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-add HTTP/1.1" 200 8688
+127.0.0.1 - test [12/May/2025:09:07:54 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?10 HTTP/1.1" 200 53944
+127.0.0.1 - test [12/May/2025:09:07:58 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?10 HTTP/1.1" 200 53944
+127.0.0.1 - test [12/May/2025:09:08:09 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:08:09 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11 HTTP/1.1" 200 24258
+127.0.0.1 - test [12/May/2025:09:08:09 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:10 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-1.IBehaviorListener.0-layout-permlistpanel&_=1747055289745 HTTP/1.1" 200 224908
+127.0.0.1 - test [12/May/2025:09:08:23 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-1.IBehaviorListener.0-layout-permlistpanel-content-form-permObject HTTP/1.1" 200 1822
+127.0.0.1 - test [12/May/2025:09:08:24 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-1.IBehaviorListener.0-layout-permlistpanel-content-form-search HTTP/1.1" 200 6179
+127.0.0.1 - test [12/May/2025:09:08:25 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-1.IBehaviorListener.0-layout-permlistpanel-content-form-search HTTP/1.1" 200 6179
+127.0.0.1 - test [12/May/2025:09:08:26 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11 HTTP/1.1" 200 31142
+127.0.0.1 - test [12/May/2025:09:08:26 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-2.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:28 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11 HTTP/1.1" 200 31141
+127.0.0.1 - test [12/May/2025:09:08:28 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-3.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:28 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11 HTTP/1.1" 200 31141
+127.0.0.1 - test [12/May/2025:09:08:28 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-4.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:29 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11 HTTP/1.1" 200 31142
+127.0.0.1 - test [12/May/2025:09:08:29 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-5.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:29 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11 HTTP/1.1" 200 31142
+127.0.0.1 - test [12/May/2025:09:08:29 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-6.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:32 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?11-6.IBehaviorListener.0-layout-navpanel-navButtons-perms HTTP/1.1" 200 119
+127.0.0.1 - test [12/May/2025:09:08:32 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:08:32 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?12 HTTP/1.1" 200 24258
+127.0.0.1 - test [12/May/2025:09:08:32 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?12-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:32 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?12-1.IBehaviorListener.0-layout-permlistpanel&_=1747055312446 HTTP/1.1" 200 224908
+127.0.0.1 - test [12/May/2025:09:08:35 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:08:35 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?13 HTTP/1.1" 200 22230
+127.0.0.1 - test [12/May/2025:09:08:35 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?13-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055315530 HTTP/1.1" 200 34932
+127.0.0.1 - test [12/May/2025:09:08:40 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?13-1.IBehaviorListener.0-layout-objectlistpanel-content-objectlistform-objecttreegrid-form-bodyContainer-body-i-1 HTTP/1.1" 200 9517
+127.0.0.1 - test [12/May/2025:09:08:45 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?13-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-commit HTTP/1.1" 200 8389
+127.0.0.1 - test [12/May/2025:09:08:45 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectPage?13-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-commit HTTP/1.1" 200 8389
+127.0.0.1 - test [12/May/2025:09:08:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:08:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?14 HTTP/1.1" 200 24258
+127.0.0.1 - test [12/May/2025:09:08:56 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?14-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:08:57 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?14-1.IBehaviorListener.0-layout-permlistpanel&_=1747055336912 HTTP/1.1" 200 224908
+127.0.0.1 - test [12/May/2025:09:09:41 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?14-1.IBehaviorListener.0-layout-permdetailpanel-editFields-add HTTP/1.1" 200 231977
+127.0.0.1 - test [12/May/2025:09:09:42 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?14-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 40
+127.0.0.1 - test [12/May/2025:09:10:01 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermPage?14-1.IBehaviorListener.0-layout-permdetailpanel-editFields-add HTTP/1.1" 200 232926
+127.0.0.1 - test [12/May/2025:09:10:23 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:10:23 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15 HTTP/1.1" 200 24408
+127.0.0.1 - test [12/May/2025:09:10:23 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 12
+127.0.0.1 - test [12/May/2025:09:10:23 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permlistpanel&_=1747055423435 HTTP/1.1" 200 196762
+127.0.0.1 - test [12/May/2025:09:10:44 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permdetailpanel-editFields-add HTTP/1.1" 200 203801
+127.0.0.1 - test [12/May/2025:09:10:44 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permdetailpanel-editFields-roles HTTP/1.1" 200 40
+127.0.0.1 - test [12/May/2025:09:11:03 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permdetailpanel-editFields-add HTTP/1.1" 200 204743
+127.0.0.1 - test [12/May/2025:09:11:21 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permdetailpanel-editFields-add HTTP/1.1" 200 205640
+127.0.0.1 - test [12/May/2025:09:11:35 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.PermAdminPage?15-1.IBehaviorListener.0-layout-permdetailpanel-editFields-add HTTP/1.1" 200 206618
+127.0.0.1 - test [12/May/2025:09:11:46 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:11:46 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?16 HTTP/1.1" 200 22365
+127.0.0.1 - test [12/May/2025:09:11:46 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?16-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055506428 HTTP/1.1" 200 25903
+127.0.0.1 - test [12/May/2025:09:11:57 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:09:11:57 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?17 HTTP/1.1" 200 22365
+127.0.0.1 - test [12/May/2025:09:11:58 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?17-1.IBehaviorListener.0-layout-objectlistpanel&_=1747055517821 HTTP/1.1" 200 25903
+127.0.0.1 - test [12/May/2025:09:12:12 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?17-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-add HTTP/1.1" 200 8759
+127.0.0.1 - test [12/May/2025:09:12:29 -0400] "POST /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?17-1.IBehaviorListener.0-layout-objectdetailpanel-editFields-add HTTP/1.1" 200 8742
+192.168.1.1 - - [12/May/2025:11:49:50 -0400] "GET / HTTP/1.1" 200 11430
+127.0.0.1 - - [12/May/2025:12:45:46 -0400] "-" 400 2185
+127.0.0.1 - - [12/May/2025:12:45:46 -0400] "-" 400 2191
+127.0.0.1 - - [12/May/2025:12:45:46 -0400] "-" 400 2193
+127.0.0.1 - - [12/May/2025:12:45:46 -0400] "-" 400 2117
+127.0.0.1 - - [12/May/2025:12:45:46 -0400] "-" 400 2191
+127.0.0.1 - - [12/May/2025:12:45:46 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2139
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2131
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2211
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2249
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2209
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2161
+127.0.0.1 - - [12/May/2025:12:45:57 -0400] "-" 400 2191
+127.0.0.1 - - [12/May/2025:12:45:58 -0400] "-" 400 2167
+127.0.0.1 - - [12/May/2025:12:45:58 -0400] "-" 400 2233
+127.0.0.1 - - [12/May/2025:12:45:58 -0400] "-" 400 2177
+127.0.0.1 - - [12/May/2025:12:45:58 -0400] "-" 400 2203
+127.0.0.1 - - [12/May/2025:12:45:58 -0400] "-" 400 2191
+127.0.0.1 - - [12/May/2025:12:45:58 -0400] "-" 400 2217
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2201
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2215
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2227
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2199
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2215
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2209
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2207
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2167
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2185
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2205
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2185
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2245
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2185
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2209
+127.0.0.1 - - [12/May/2025:12:45:59 -0400] "-" 400 2203
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2215
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2205
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2183
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2191
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2205
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2187
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2211
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2155
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2017
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2215
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2221
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2185
+127.0.0.1 - - [12/May/2025:12:46:00 -0400] "-" 400 2155
+127.0.0.1 - - [12/May/2025:12:46:30 -0400] "-" 400 2033
+127.0.0.1 - - [12/May/2025:12:46:30 -0400] "-" 400 2215
+127.0.0.1 - - [12/May/2025:12:46:30 -0400] "-" 400 2223
+127.0.0.1 - - [12/May/2025:12:46:30 -0400] "-" 400 2197
+127.0.0.1 - - [12/May/2025:12:50:23 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?17 HTTP/1.1" 200 2102
+127.0.0.1 - test [12/May/2025:12:50:28 -0400] "POST /fortress-web/wicket/bookmarkable/j_security_check HTTP/1.1" 303 -
+127.0.0.1 - test [12/May/2025:12:50:28 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?17 HTTP/1.1" 302 -
+127.0.0.1 - - [12/May/2025:12:50:30 -0400] "GET /manager/html HTTP/1.1" 401 2562
+127.0.0.1 - test [12/May/2025:12:50:30 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage HTTP/1.1" 302 -
+127.0.0.1 - test [12/May/2025:12:50:30 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?0 HTTP/1.1" 200 22141
+127.0.0.1 - test [12/May/2025:12:50:31 -0400] "GET /fortress-web/wicket/bookmarkable/org.apache.directory.fortress.web.ObjectAdminPage?0-1.IBehaviorListener.0-layout-objectlistpanel&_=1747068630952 HTTP/1.1" 200 27577
+127.0.0.1 - - [12/May/2025:12:50:33 -0400] "GET /manager/images/asf-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2025:12:50:33 -0400] "GET /manager/images/tomcat.svg HTTP/1.1" 304 -
+127.0.0.1 - tcmanagergui [12/May/2025:12:50:33 -0400] "GET /manager/html HTTP/1.1" 200 21997
+127.0.0.1 - - [12/May/2025:12:50:33 -0400] "GET /manager/css/manager.css HTTP/1.1" 304 -
